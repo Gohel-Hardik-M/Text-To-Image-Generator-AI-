@@ -5,7 +5,7 @@ const button = document.getElementById("btn")
 
 async function query() {
 
-    image.src = "C:/Users/hardi/Downloads/CS(EH)/AI/projects/Text To Image Generator (js)/loading.gif"
+    image.src = "/loading.gif"
 	const response = await fetch(
 		"https://api-inference.huggingface.co/models/ZB-Tech/Text-to-Image",
 		{
