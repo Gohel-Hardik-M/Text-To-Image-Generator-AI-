@@ -26,6 +26,8 @@ Technologies Used :
 
 
 Usage :
+      
+    Before Using Websiite Make sure to generate your Token from Huggingface and update the script.js code
 
     Open the website in a browser.
 
