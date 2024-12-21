@@ -1,3 +1,4 @@
+/*  PLEASE ENTER YOUR HUGGINGFACE TOKEN  IN THE LINE NO-13 BEFORE YOU USE THIS SCRIPT.JS CODE */
 const inputTxt = document.getElementById("input")
 const image = document.getElementById("image")
 const button = document.getElementById("btn")
@@ -9,7 +10,7 @@ async function query() {
 		"https://api-inference.huggingface.co/models/ZB-Tech/Text-to-Image",
 		{
 			headers: {
-				Authorization: "Bearer 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",
+				Authorization: "Bearer ${YOUR_HUGGINGFACE_TOKEN}",
 				"Content-Type": "application/json",
 			},
 			method: "POST",
