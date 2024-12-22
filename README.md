@@ -6,7 +6,7 @@ Overview :
 
 This is a simple Text-to-Image Generator website created using HTML, CSS, and JavaScript. The website allows users to input text and converts it into an image with customizable styling. It is designed to be user-friendly and visually appealing.
 
-Features :
+Features :   
 
     Text Input: Users can type any text they want to convert into an image.
 
