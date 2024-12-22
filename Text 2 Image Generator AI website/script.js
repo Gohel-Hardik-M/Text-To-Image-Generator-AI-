@@ -3,6 +3,7 @@ const inputTxt = document.getElementById("input")
 const image = document.getElementById("image")
 const button = document.getElementById("btn")
 
+
 async function query() {
 
     image.src = "/loading.gif"
